@@ -11,5 +11,7 @@
 
     <modules>
         <module>redis-demo</module>
+        <module>dubbo-consumer-demo</module>
+        <module>dubbo-provider-demo</module>
     </modules>
 </project>
