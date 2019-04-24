@@ -1,7 +1,9 @@
 package com.hellen.springboot.dubboconsumerdemo;
 
+import com.hellen.springboot.dubboconsumerdemo.service.StudentConsumer;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -11,6 +13,7 @@ public class DubboConsumerDemoApplicationTests {
 
     @Test
     public void contextLoads() {
+
     }
 
 }
