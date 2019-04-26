@@ -44,4 +44,9 @@ public class StudentController {
         return "index";
     }
 
+    @RequestMapping("/show")
+    public String show(Model model){
+        return "show";
+    }
+
 }
