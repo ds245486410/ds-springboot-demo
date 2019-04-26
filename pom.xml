@@ -14,5 +14,6 @@
         <module>dubbo-consumer-demo</module>
         <module>dubbo-provider-demo</module>
         <module>dubbo-api-demo</module>
+        <module>thymeleaf-demo</module>
     </modules>
 </project>
