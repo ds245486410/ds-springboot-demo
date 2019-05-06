@@ -5,6 +5,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @author daiweihang
@@ -15,4 +16,6 @@ public class StudentDTO implements Serializable {
     private Long id;
     private String name;
     private String age;
+    private Date date;
+    private Boolean passed;
 }

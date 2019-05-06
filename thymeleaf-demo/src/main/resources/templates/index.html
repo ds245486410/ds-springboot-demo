@@ -12,27 +12,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="panel panel-primary">
-    <div class="panel-heading">
-        <h3 class="panel-title">访问model</h3>
-    </div>
-    <div class="panel-body">
-    </div>
-</div>
-<div th:if="${not #lists.isEmpty(list)}">
-    <div class="panel panel-primary">
-        <div class="panel-heading">
-            <h3 class="panel-title">列表</h3>
-        </div>
-        <div class="panel-body">
-            <ul class="list-group">
-                <li class="list-group-item" th:each="student : ${list}">
-                    <span th:text="${student.name}"></span>
-                    <span th:text="${student.age}"></span>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
+<input type="text" id="datePlanted" name="datePlanted" th:value="*{datePlanted}" />
+<br/>
+<input type="text" th:field="*{student.name}" />
+<br>
+<br>
+<label th:for="${#ids.next('covered')}" th:text="${student.passed}">Covered</label>
+<input type="checkbox" th:field="*{student.passed}" />
 </body>
 </html>
