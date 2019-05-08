@@ -15,6 +15,7 @@
         <module>dubbo-provider-demo</module>
         <module>dubbo-api-demo</module>
         <module>thymeleaf-demo</module>
+        <module>druid-mybatis</module>
     </modules>
 
 </project>
