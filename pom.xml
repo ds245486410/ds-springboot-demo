@@ -16,6 +16,7 @@
         <module>dubbo-api-demo</module>
         <module>thymeleaf-demo</module>
         <module>druid-mybatis</module>
+        <module>jpa-demo</module>
     </modules>
 
 </project>
