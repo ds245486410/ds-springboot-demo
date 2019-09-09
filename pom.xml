@@ -17,6 +17,7 @@
         <module>thymeleaf-demo</module>
         <module>druid-mybatis</module>
         <module>jpa-demo</module>
+        <module>javaapi</module>
     </modules>
 
 </project>
